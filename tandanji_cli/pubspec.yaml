@@ -1,0 +1,18 @@
+name: tandanji_cli
+description: 탄단지 다이어트 도우미 CLI
+version: 1.0.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  args: ^2.4.0
+  http: ^1.1.0
+  intl: ^0.19.0
+
+dev_dependencies:
+  lints: ^3.0.0
+
+# ✅ 이 부분 추가
+executables:
+  tandanji: cli
